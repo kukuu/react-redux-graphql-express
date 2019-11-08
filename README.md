@@ -162,6 +162,8 @@ Each schema has root types(are entry points for the API) that define the entry p
 
 To enable the feed query and createPost mutation (from snippets folder), you’d have to write the root types as follows:
 
+Note the added ! flags the selector's valued as required.
+
 ```
 type Query {
   feed: [Post!]!
