@@ -18,53 +18,63 @@ var GraphQLInt = graphql.GraphQLInt;
 var goldbergs = {
   1: {
     id: "1",
-    categories: ['Leanne Grahamsggggg',' Bret'], 
-    tags: ['Sincere@april.biz','Gwenborough'] 
+    categories: ['Leanne Grahamsggggg',' Bretsssss'], 
+    tags: ['Sincere@april.biz','Gwenborough'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 1'] 
   },
   2: {
     id: "2",
     categories: ['Ervin Howell','Antonette'],
-    tags: ['Shanna@melissa.tv','Wisokyburgh']
+    tags: ['Shanna@melissa.tv','Wisokyburgh'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 2']
   },
   3: {
     id: "3",
     categories: ['Clementine Bauchh','Samantha'],
-    tags: ['Nathan@yesenia.net!','McKenziehaven!']
+    tags: ['Nathan@yesenia.net!','McKenziehaven!'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 3']
   },
   4: {
     id: "4",
     categories: ['Patricia Lebsack','Karianne'],
-    tags: ['Julianne.OConner@kory.org','South Elvis']
+    tags: ['Julianne.OConner@kory.org','South Elvis'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 4']
   },
   5: {
     id: "5",
     categories: ['Chelsey Dietrich','Kamren'],
-    tags: ['Lucio_Hettinger@annie.ca','Roscoeview']
+    tags: ['Lucio_Hettinger@annie.ca','Roscoeview'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 5']
   },
   6: {
     id: "6",
     categories: ['Mrs. Dennis Schulist','Leopoldo_Corkery'],
-    tags: ['Karley_Dach@jasper.info','South Christy']
+    tags: ['Karley_Dach@jasper.info','South Christy'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 6']
   },
   7: {
     id: "7",
     categories: ['Kurtis Weissnat','Elwyn.Skiles'],
-    tags: ['Telly.Hoeger@billy.biz','Howemouth']
+    tags: ['Telly.Hoeger@billy.biz','Howemouth'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 7']
   },
   8: {
     id: "8",
     categories: ['Nicholas Runolfsdottir V','Maxime_Nieno'],
-    tags: ['Sherwood@rosamond.me','Aliyaview']
+    tags: ['Sherwood@rosamond.me','Aliyaview'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 8']
   },
   9: {
     id: "9",
     categories: ['Glenna Reichert','Delphine'],
-    tags: ['Chaim_McDermott@dana.io','Bartholomebury']
+    tags: ['Chaim_McDermott@dana.io','Bartholomebury'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 9']
   },
   10: {
     id: "10",
     categories: ['Clementina DuBuque','Moriah.Stanton'],
-    tags: ['Rey.Padberg@karina.biz','Lebsackbury']
+    tags: ['Rey.Padberg@karina.biz','Lebsackbury'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 10']
   }      
 }
 
@@ -86,6 +96,10 @@ var goldbergType = new GraphQLObjectType({
     tags: {
       type: GraphQLString,
       description: "Name of the tag",
+    },
+    desc: {
+      type: GraphQLString,
+      description: "Description of character",
     },
     id: {
       type: GraphQLInt,
