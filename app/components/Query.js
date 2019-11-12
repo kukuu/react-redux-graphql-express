@@ -4,7 +4,7 @@ import { getGraph } from '../actions/actions.js';
 
 let Query = React.createClass({
   componentDidMount() {
-    this.props.dispatch(getGraph("{goldberg(id: 1) {id, categories, tags}}"));
+    this.props.dispatch(getGraph("{goldberg(id: 1) {id, categories, tags, desc }}"));
   },
   render() {
     let dispatch = this.props.dispatch;
@@ -16,6 +16,7 @@ let Query = React.createClass({
         <p>Fetch in progress: {fetchInProgress}</p>
         <h3>{ goldberg.categories }</h3>
         <p>{ goldberg.tags }</p>
+        <p>{ goldberg.desc }</p>
         <input ref={node => {queryText = node}}></input>
         <button onClick={() => {dispatch(getGraph(queryText.value))}}>
           query
