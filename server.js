@@ -75,7 +75,13 @@ var goldbergs = {
     categories: ['Clementina DuBuque','Moriah.Stanton'],
     tags: ['Rey.Padberg@karina.biz','Lebsackbury'],
     desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 10']
-  }      
+  },
+  11: {
+    id: "11",
+    categories: ['Jake Dhallion','J.D'],
+    tags: ['J.D@faker.biz','Faker'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 11Update']
+  }       
 }
 
 
