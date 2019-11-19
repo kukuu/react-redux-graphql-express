@@ -51,6 +51,11 @@ query {
     id
     imageUrl
     description
+    address {
+      postcode 
+      housenumber
+      strret
+    }
   }
 }
 
