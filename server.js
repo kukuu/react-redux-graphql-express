@@ -86,6 +86,7 @@ var goldbergs = {
 
 
 //When we resolve our query we return the output of a function called getGoldberg():
+//See line 137 iin QueryType
 function getGoldberg(id) {
   return goldbergs[id]
 }
