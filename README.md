@@ -179,3 +179,8 @@ type Mutation {
 }
 
 ```
+
+
+## Deploying to CI / CD pipeline with Jenkins
+
+https://github.com/kukuu/CI-CD-pipeline-with-Jenkins
