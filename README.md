@@ -179,7 +179,11 @@ type Mutation {
 }
 
 ```
+## Application
 
+1. https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/tory-conference-2019.png 
+
+2. https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png
 
 ## Deploying to CI / CD pipeline with Jenkins
 
