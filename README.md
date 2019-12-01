@@ -182,9 +182,9 @@ type Mutation {
 ## Application
 
 
-1. ![Happy Coding](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/tory-conference-2019.png)
+ ![Happy Coding](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/tory-conference-2019.png)
   
-2. ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
+ ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
 
  
 
