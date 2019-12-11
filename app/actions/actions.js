@@ -1,6 +1,7 @@
 const startingRequest = () => {
   return {
     type: "STARTING_REQUEST"
+    //No payload
   }
 }
 
