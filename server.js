@@ -1,6 +1,6 @@
 //Author: Alexander Adu-Sarkodie
 //Server launch file for Model, Query and Schema
-//Graphiql IDE loaded via webpack to offset CORS issues
+//Graphiql IDE loaded via webpack to offset CORS issues. Proxy-ing.
 //IDE is packaged into webpack 
 
 var webpack = require('webpack');
@@ -80,7 +80,13 @@ var goldbergs = {
     id: "11",
     categories: ['Jake Dhallion','J.D'],
     tags: ['J.D@faker.biz','Faker'],
-    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 11Update']
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 11']
+  },
+  12: {
+    id: "12",
+    categories: ['Dr Aras','A.A'],
+    tags: ['ceo@testenium.com','CEO'],
+    desc: ['Lorem ipsum anet consecteur Lorem ipsum anet consecteur Lorem ipsum anet consecteur 12']
   }       
 }
 
@@ -117,10 +123,10 @@ var goldbergType = new GraphQLObjectType({
 
 
 //Define Query. This is also an instance GraphQLObjectType
-//Here in the query we define a "goldberg" field with a type equal to the type in the  schema above "goldbergType"
+//Here in the query we define a unique reference "goldberg" field with a type equal to the type in the  schema above "goldbergType" - The Model
 //Properties of the "goldberg" field in the query
 //1. type 
-//2. args, 
+//2. args 
 //3.resolve
 //in the resolve we return a the function getGoldberg(args.id) from above
 var queryType = new GraphQLObjectType({
