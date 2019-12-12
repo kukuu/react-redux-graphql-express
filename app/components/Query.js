@@ -10,7 +10,13 @@ let Query = React.createClass({
     let dispatch = this.props.dispatch;
     let fetchInProgress = String(this.props.store.get('fetching'));
     let queryText;
+    
+    
+    //toObject() Returns an object with each property name and value
+    //corresponding to the entries in this collection.
+   //For collections that are not maps, the generated property names correspond to each index.
     let goldberg = this.props.store.get('data').toObject();
+    
     return (
       <div>
         <p>Fetch in progress: {fetchInProgress}</p>
