@@ -186,6 +186,11 @@ type Mutation {
   
  ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
 
+
+## Implementing SEARCH with AWS-SYNC & Graph Apollo
+
+https://medium.com/open-graphql/implementing-search-in-graphql-11d5f71f179
+
  
 
 ## Deploying to CI / CD pipeline with Jenkins
