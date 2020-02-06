@@ -123,7 +123,7 @@ GET /users/1?include=friends.name
 
 ``` 
 
-A. We use GraphQL data modelling Architecturalwe to construct 3 types to enable get an end point:
+A. We use GraphQL data modelling Architecture to construct 3 types to enable get an end point:
 
 i. A type for the model (properties of the madel are name, description and field - the field has selections of the field with their defined data types.).
 
