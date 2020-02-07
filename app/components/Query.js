@@ -19,7 +19,7 @@ let Query = React.createClass({
     
     return (
       <div>
-        <p>Fetch in progress: {fetchInProgress}</p>
+        <p>Fetch in progress.....: {fetchInProgress}</p>
         <h3>{ goldberg.categories }</h3>
         <p>{ goldberg.tags }</p>
         <p>{ goldberg.desc }</p>
@@ -43,4 +43,4 @@ export const QueryContainer = connect(
 )(Query);
 
 
-//{goldberg(_id: 1) {_id, categories, tags}}
+//{goldberg(_id: 2) {_id, categories, tags}}
