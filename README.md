@@ -179,6 +179,60 @@ type Mutation {
 }
 
 ```
+
+```
+
+## Making a query to graphQL
+
+```
+Querry
+{ 
+ goldberg(id: 2) { 
+   id,
+   character
+ }
+}
+
+i - goldberg is name of the query
+
+ii - you need arguments to pass on page load
+
+iii - You need to pass in the fields (comma separated)
+
+C. 
+response
+
+{
+ "data": {
+   "goldberg": {
+     "id": 2,
+     "character": "Murray Goldberg"
+   }
+  }
+}
+
+
+D
+import Immutable from 'immutable';
+
+const immutableState = Immutable.Map(){
+	fetching:false
+	data:Immutable.Map({});
+}
+
+const default queryReducer(state=immutableState, action){
+	switch(action.type){
+		case "START_REQUEST":
+		return state.set("fetching", true);
+
+		case "FINISHED_REQUEST";
+		return state.set("fetching", false).
+		set(Immutable.Map("data",action.response.data.goldberg)) //goldberg is name of query
+	}
+}
+
+
+```
 ## Application
 
 
