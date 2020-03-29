@@ -190,4 +190,4 @@ var app = new WebpackDevServer(compiler, {
 // Serve static resources
 app.use('/', express.static('static'));
 app.listen(3010);
-console.log("The App Server is running.")
+console.log("The App Server is running on port 3010. graphiql on port 3010.")
