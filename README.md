@@ -241,6 +241,10 @@ const default queryReducer(state=immutableState, action){
  ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
 
 
+## GraphQL/PostgreSQL/HASURA
+
+- https://www.youtube.com/watch?v=6BffPT96HPg
+
 ## Implementing SEARCH with AWS-SYNC & Graph Apollo
 
 https://medium.com/open-graphql/implementing-search-in-graphql-11d5f71f179
